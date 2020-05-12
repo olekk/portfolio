@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: 'K2D', sans-serif; }
+
+#window {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  transition: transform ease-out .1s;
+  display: flex; }
+  #window .tile {
+    float: left;
+    min-width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    outline: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 200%;
+    text-align: center; }
+
+#scroll {
+  height: 500vh; }
+
+/*# sourceMappingURL=style.css.map */
